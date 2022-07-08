@@ -8,6 +8,7 @@ public class CircleTest {
     @Test
     public void testCalculateArea() {
         System.out.println("okdddddddddddddddddd");
-        //...
+        int i = 0;
+        int j = 0;
     }
 }
