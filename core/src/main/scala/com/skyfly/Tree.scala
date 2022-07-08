@@ -1,11 +1,9 @@
 package com.skyfly
- 
-import javax.print.DocFlavor.URL
+
+
 
 trait Tree[T]:
   def prettyString: String
-
-
 
 
 
