@@ -1,11 +1,18 @@
 package com.skyfly
 
+import org.antlr.v4.runtime.ANTLRInputStream
 import org.scalatest.funsuite.AnyFunSuite
+import org.antlr.v4.runtime.CommonTokenStream
 
 class SetSuite extends AnyFunSuite {
 
   test("An empty Set should have size 0") {
-    println("okkkkkkkkkkkkkkkkkkkkkk")
+    val lexer = new JSONLexer(new ANTLRInputStream("3 + 3"))
+    val tokens = new CommonTokenStream(lexer)
+    val parser = new JSONParser(tokens)
+    val tree = parser.expr()
+    val visitor = new JSONBaseVisitor[Any]().visit(tree)
+
     assert(Set.empty.size == 0)
   }
 
