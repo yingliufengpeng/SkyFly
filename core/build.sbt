@@ -13,4 +13,3 @@ Antlr4 / antlr4PackageName := Some("com.skyfly")
 //javaSource in Antlr4 := (sourceManaged in Compile).value
 
 Antlr4 / javaSource := (Compile / sourceManaged).value
-//antlr4GenVisitor in Antlr4 := false // default: false
