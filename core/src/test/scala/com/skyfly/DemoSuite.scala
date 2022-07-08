@@ -16,6 +16,10 @@ class SetSuite extends AnyFunSuite {
     val r2 = 0
   }
 
+  test("ok") {
+    println(s"ok")
+  }
+
 //  test("An empty Set should have size 0") {
 //    val lexer = new JSONLexer(new ANTLRInputStream("3+3"))
 //    val tokens = new CommonTokenStream(lexer)
