@@ -1,5 +1,5 @@
 package com.skyfly
-
+import com.skyfly.utils
 
 
 trait Tree[T]:
