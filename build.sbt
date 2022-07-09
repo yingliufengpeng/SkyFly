@@ -30,7 +30,6 @@ ThisBuild / testOptions += Tests.Argument(TestFrameworks.JUnit
 lazy val root = (project in file("."))
   .settings(
     name := "SkyFly",
-    idePackagePrefix := Some("com.skyfly")
   ).aggregate(util, core)
 
 

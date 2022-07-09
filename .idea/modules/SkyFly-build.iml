@@ -103,7 +103,12 @@
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.12.15/org.scala-sbt/sbt/1.6.2/zinc-persist-core-assembly-1.6.0.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.12.15/org.scala-sbt/sbt/1.6.2/zinc-persist_2.12-1.6.0.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.12.15/org.scala-sbt/sbt/1.6.2/zinc_2.12-1.6.0.jar!/" />
+          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.2/sbt-bloop-1.5.2.jar!/" />
+          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar!/" />
+          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar!/" />
           <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/com/simplytyped/sbt-antlr4_2.12_1.0/0.8.3/sbt-antlr4-0.8.3.jar!/" />
+          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/jna-platform-4.5.0.jar!/" />
+          <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.0/jna-4.5.0.jar!/" />
           <root url="jar://$USER_HOME$/AppData/Local/Coursier/cache/v1/https/repo1.maven.org/maven2/org/jetbrains/scala/sbt-ide-settings_2.12_1.0/1.1.1/sbt-ide-settings-1.1.1.jar!/" />
         </CLASSES>
         <JAVADOC />
@@ -199,7 +204,7 @@
   </component>
   <component name="SbtModule">
     <option name="buildForURI" value="file:/$MODULE_DIR$/../../" />
-    <option name="imports" value="SUB:DOLLARc359743dd413db9d0f21.`core`, SUB:DOLLARc359743dd413db9d0f21.`root`, SUB:DOLLARc359743dd413db9d0f21.`util`, _root_.sbt.Keys._, _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.sbtide.ConfigPlugin.autoImport._, _root_.com.simplytyped.Antlr4Plugin.autoImport._, _root_.sbt._, _root_.sbt.nio.Keys._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.sbtide.ConfigPlugin, _root_.com.simplytyped.Antlr4Plugin, _root_.scala.xml.{TopScope=&gt;SUB:DOLLARscope}" />
+    <option name="imports" value="SUB:DOLLAR32b02646429348b60f9d.`core`, SUB:DOLLAR32b02646429348b60f9d.`root`, SUB:DOLLAR32b02646429348b60f9d.`util`, _root_.sbt.Keys._, _root_.sbt.ScriptedPlugin.autoImport._, _root_.sbt.plugins.JUnitXmlReportPlugin.autoImport._, _root_.sbt.plugins.MiniDependencyTreePlugin.autoImport._, _root_.bloop.integrations.sbt.BloopPlugin.autoImport._, _root_.sbtide.ConfigPlugin.autoImport._, _root_.com.simplytyped.Antlr4Plugin.autoImport._, _root_.sbt._, _root_.sbt.nio.Keys._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.ScriptedPlugin, _root_.sbt.plugins.SbtPlugin, _root_.sbt.plugins.SemanticdbPlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.sbt.plugins.MiniDependencyTreePlugin, _root_.bloop.integrations.sbt.BloopPlugin, _root_.sbtide.ConfigPlugin, _root_.com.simplytyped.Antlr4Plugin, _root_.scala.xml.{TopScope=&gt;SUB:DOLLARscope}" />
     <option name="resolvers" value="C:\Users\29066\.ivy2\cache|ivy|true|Local cache, https://repo.artima.com/releases|maven|Artima Maven Repository, https://repo1.maven.org/maven2/|maven|public" />
   </component>
 </module>
