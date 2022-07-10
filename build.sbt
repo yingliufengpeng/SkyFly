@@ -8,6 +8,7 @@ lazy val scalatest_version = "3.2.12"
 
 ThisBuild / libraryDependencies += "org.scalactic" %% "scalactic" % scalatest_version
 ThisBuild / libraryDependencies += "log4j" % "log4j" % "1.2.17"
+ThisBuild / libraryDependencies += "org.typelevel" %% "cats-effect" % "3.3.13"
 ThisBuild / libraryDependencies += "org.scalatest" %% "scalatest" % scalatest_version % "test"
 //
 ThisBuild / libraryDependencies += "org.scalatest" %% "scalatest-funsuite" % scalatest_version % "test"

@@ -1,5 +1,4 @@
 package com.skyfly
-//import com.skyfly.utils
 import org.apache.log4j.Logger
 
 val logger = Logger.getLogger(this.getClass.getName)

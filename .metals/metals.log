@@ -1,0 +1,506 @@
+2022.07.09 18:22:20 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\sbt_repo\SkyFly\.metals\lsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.07.09 18:22:21 INFO  logging to file D:\sbt_repo\SkyFly\.metals\metals.log
+2022.07.09 18:22:21 INFO  Started: Metals version 0.11.7 in workspace 'D:\sbt_repo\SkyFly' for client Visual Studio Code 1.69.0.
+2022.07.09 18:22:23 INFO  time: initialize in 1.3s
+2022.07.09 18:22:24 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.07.09 18:22:24 WARN  Build server is not auto-connectable.
+2022.07.09 18:22:25 WARN  no build target for: D:\sbt_repo\SkyFly\build.sbt
+2022.07.09 18:22:31 INFO  no build target found for D:\sbt_repo\SkyFly\build.sbt. Using presentation compiler with project's scala-library version: 3.1.3
+2022.07.09 18:22:31 WARN  no build target for: D:\sbt_repo\SkyFly\src\main\scala\main.scala
+ÆßÔÂ 09, 2022 6:22:32 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 4
+2022.07.09 18:22:34 INFO  time: code lens generation in 9.25s
+2022.07.09 18:22:34 INFO  time: code lens generation in 2.55s
+2022.07.09 18:22:34 INFO  time: code lens generation in 2.55s
+2022.07.09 18:22:57 INFO  running 'E:\Program Files\Java\jdk1.8.0_281\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\29066\AppData\Local\Temp\metals5413520109876252332\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.07.09 18:23:00 INFO  [info] welcome to sbt 1.6.2 (Oracle Corporation Java 1.8.0_281)
+2022.07.09 18:23:04 INFO  [info] loading global plugins from C:\Users\29066\.sbt\1.0\plugins
+2022.07.09 18:23:09 INFO  [info] loading settings for project skyfly-build-build-build from metals.sbt ...
+2022.07.09 18:23:09 INFO  [info] loading project definition from D:\sbt_repo\SkyFly\project\project\project
+2022.07.09 18:23:13 INFO  [info] loading settings for project skyfly-build-build from metals.sbt ...
+2022.07.09 18:23:13 INFO  [info] loading project definition from D:\sbt_repo\SkyFly\project\project
+2022.07.09 18:23:17 INFO  [success] Generated .bloop\skyfly-build-build.json
+2022.07.09 18:23:19 INFO  [success] Total time: 6 s, completed 2022-7-9 18:23:19
+2022.07.09 18:23:20 INFO  [info] loading settings for project skyfly-build from metals.sbt,plugins.sbt,sbt-antlr4.sbt ...
+2022.07.09 18:23:20 INFO  [info] loading project definition from D:\sbt_repo\SkyFly\project
+2022.07.09 18:23:23 INFO  [success] Generated .bloop\skyfly-build.json
+2022.07.09 18:23:24 INFO  [success] Total time: 4 s, completed 2022-7-9 18:23:24
+2022.07.09 18:23:27 INFO  [info] loading settings for project root from build.sbt ...
+2022.07.09 18:23:27 INFO  [info] loading settings for project core from build.sbt ...
+2022.07.09 18:23:27 INFO  [info] set current project to SkyFly (in build file:/D:/sbt_repo/SkyFly/)
+2022.07.09 18:23:31 INFO  [success] Generated .bloop\util.json
+2022.07.09 18:23:31 INFO  [success] Generated .bloop\root.json
+2022.07.09 18:23:31 INFO  [success] Generated .bloop\core.json
+2022.07.09 18:23:31 INFO  [success] Generated .bloop\util-test.json
+2022.07.09 18:23:31 INFO  [success] Generated .bloop\root-test.json
+2022.07.09 18:23:31 INFO  [success] Generated .bloop\core-test.json
+2022.07.09 18:23:31 INFO  [success] Total time: 1 s, completed 2022-7-9 18:23:31
+2022.07.09 18:23:31 INFO  time: ran 'sbt bloopInstall' in 34s
+2022.07.09 18:23:31 INFO  Attempting to connect to the build server...
+2022.07.09 18:23:31 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 18:23:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 18:23:36 INFO  Attempting to connect to the build server...
+2022.07.09 18:23:36 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 18:23:36 INFO  Attempting to connect to the build server...
+2022.07.09 18:23:36 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 18:23:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\project\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 18:23:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\project\project\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 18:23:44 INFO  time: Connected to build server in 13s
+2022.07.09 18:23:44 INFO  Connected to Build server: Bloop v1.5.2
+2022.07.09 18:23:45 INFO  time: Imported build in 0.28s
+2022.07.09 18:23:59 INFO  time: indexed workspace in 14s
+2022.07.09 18:24:00 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 18:24:00 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 18:24:00 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 18:24:01 INFO  compiling util (1 scala source)
+2022.07.09 18:24:04 INFO  compiling core (1 scala source and 4 java sources)
+2022.07.09 18:24:04 INFO  time: compiled util in 3.48s
+2022.07.09 18:24:08 INFO  compiling root (4 scala sources)
+2022.07.09 18:24:08 INFO  compiling core-test (1 scala source and 1 java source)
+2022.07.09 18:24:08 INFO  time: compiled core in 4.04s
+2022.07.09 18:24:11 WARN  there were 2 deprecation warnings; re-run with -deprecation for details
+2022.07.09 18:24:11 INFO  time: compiled core-test in 2.65s
+2022.07.09 18:24:14 INFO  compiling root-test (1 scala source and 1 java source)
+2022.07.09 18:24:14 INFO  time: compiled root in 5.67s
+2022.07.09 18:24:15 INFO  time: compiled root-test in 1.01s
+2022.07.09 18:24:17 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 18:28:58 INFO  shutting down Metals
+2022.07.09 18:28:58 INFO  Shut down connection with build server.
+2022.07.09 18:28:58 INFO  Shut down connection with build server.
+2022.07.09 18:28:58 INFO  Shut down connection with build server.
+2022.07.09 20:10:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\sbt_repo\SkyFly\.metals\lsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.07.09 20:10:26 INFO  logging to file D:\sbt_repo\SkyFly\.metals\metals.log
+2022.07.09 20:10:26 INFO  Started: Metals version 0.11.7 in workspace 'D:\sbt_repo\SkyFly' for client Visual Studio Code 1.69.0.
+2022.07.09 20:10:27 INFO  time: initialize in 1.09s
+2022.07.09 20:10:27 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.07.09 20:10:28 INFO  Attempting to connect to the build server...
+2022.07.09 20:10:28 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 20:10:27 INFO  skipping build import with status 'Installed'
+2022.07.09 20:10:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 20:10:28 INFO  Attempting to connect to the build server...
+2022.07.09 20:10:28 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 20:10:28 INFO  Attempting to connect to the build server...
+2022.07.09 20:10:28 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 20:10:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\project\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 20:10:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\project\project\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 20:10:28 INFO  time: Connected to build server in 0.61s
+2022.07.09 20:10:28 INFO  Connected to Build server: Bloop v1.5.2
+2022.07.09 20:10:28 INFO  time: Imported build in 0.58s
+2022.07.09 20:10:34 INFO  no build target found for D:\sbt_repo\SkyFly\src\main\scala\main.scala. Using presentation compiler with project's scala-library version: 3.1.3
+2022.07.09 20:10:36 INFO  time: code lens generation in 7.78s
+2022.07.09 20:10:39 INFO  time: indexed workspace in 9.97s
+2022.07.09 20:10:40 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:10:40 INFO  compiling util (1 scala source)
+2022.07.09 20:10:40 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:10:40 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:10:40 INFO  time: compiled util in 0.59s
+2022.07.09 20:10:40 INFO  compiling core (1 scala source and 4 java sources)
+2022.07.09 20:10:43 INFO  time: compiled core in 2.17s
+2022.07.09 20:10:43 INFO  compiling core-test (1 scala source and 1 java source)
+2022.07.09 20:10:43 INFO  compiling root (4 scala sources)
+2022.07.09 20:10:44 WARN  there were 2 deprecation warnings; re-run with -deprecation for details
+2022.07.09 20:10:44 INFO  time: compiled core-test in 1.56s
+2022.07.09 20:10:44 INFO  compiling root-test (1 scala source and 1 java source)
+2022.07.09 20:10:44 INFO  time: compiled root in 2.07s
+2022.07.09 20:10:46 INFO  time: compiled root-test in 0.48s
+2022.07.09 20:10:48 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:11:04 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:11:05 INFO  Deduplicating compilation of util from bsp client 'Metals 0.11.7' (since 36.623s)
+2022.07.09 20:11:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:11:08 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:11:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:11:09 INFO  Starting debug proxy for [main]
+2022.07.09 20:11:09 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:11:09 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:11:09 INFO  Starting debug proxy for [main]
+2022.07.09 20:11:10 INFO  Trying to attach to remote debuggee VM 127.0.0.1:1785 .
+2022.07.09 20:11:10 INFO  Trying to attach to remote debuggee VM 127.0.0.1:1786 .
+2022.07.09 20:11:10 INFO  Deduplicating compilation of util from bsp client 'Metals 0.11.7' (since 41.853s)
+2022.07.09 20:11:10 INFO  Deduplicating compilation of util from bsp client 'Metals 0.11.7' (since 41.857s)
+2022.07.09 20:11:10 INFO  Deduplicating compilation of core from bsp client 'Metals 0.11.7' (since 41.875s)
+2022.07.09 20:11:10 INFO  Deduplicating compilation of core from bsp client 'Metals 0.11.7' (since 41.875s)
+2022.07.09 20:11:10 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 41.888s)
+2022.07.09 20:11:10 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 41.894s)
+2022.07.09 20:11:10 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 20:11:10 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 20:11:11 INFO  Canceling debug proxy for [main]
+2022.07.09 20:11:11 INFO  Canceling debug proxy for [main]
+2022.07.09 20:11:11 INFO  Closing debug server tcp://0.0.0.0:1782
+2022.07.09 20:11:11 INFO  Closing debug server tcp://0.0.0.0:1776
+ÆßÔÂ 09, 2022 8:11:11 ÏÂÎç org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+ÑÏÖØ: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:146)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:118)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2022.07.09 20:11:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:11:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:11:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:11:12 ERROR java.nio.file.FileSystemAlreadyExistsException
+2022.07.09 20:11:12 INFO  Closing debug server tcp://0.0.0.0:1801
+2022.07.09 20:11:12 ERROR java.nio.file.FileSystemAlreadyExistsException
+2022.07.09 20:11:12 INFO  Closing debug server tcp://0.0.0.0:1802
+2022.07.09 20:11:12 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:11:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:11:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:11:12 INFO  Starting debug proxy for [main]
+2022.07.09 20:11:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:11:13 INFO  Starting debug proxy for [main]
+2022.07.09 20:11:12 INFO  Starting debug proxy for [main]
+2022.07.09 20:11:12 INFO  Trying to attach to remote debuggee VM 127.0.0.1:1810 .
+2022.07.09 20:11:12 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 20:11:13 INFO  Canceling debug proxy for [main]
+2022.07.09 20:11:12 INFO  Closing debug server tcp://0.0.0.0:1799
+2022.07.09 20:11:13 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:11:13 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:11:14 INFO  Starting debug proxy for [main]
+2022.07.09 20:11:14 INFO  Canceling debug proxy for [main]
+2022.07.09 20:11:14 INFO  Canceling debug proxy for [main]
+2022.07.09 20:11:14 INFO  Trying to attach to remote debuggee VM 127.0.0.1:1815 .
+2022.07.09 20:11:14 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 20:11:14 INFO  Canceling debug proxy for [main]
+2022.07.09 20:11:14 INFO  Closing debug server tcp://0.0.0.0:1812
+2022.07.09 20:11:14 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:11:14 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:11:15 INFO  Starting debug proxy for [main]
+2022.07.09 20:11:14 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:11:14 INFO  Trying to attach to remote debuggee VM 127.0.0.1:1821 .
+2022.07.09 20:11:14 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 20:11:15 INFO  Canceling debug proxy for [main]
+2022.07.09 20:11:15 INFO  Closing debug server tcp://0.0.0.0:1817
+2022.07.09 20:11:17 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:11:17 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:11:17 INFO  Starting debug proxy for [main]
+2022.07.09 20:11:17 INFO  Trying to attach to remote debuggee VM 127.0.0.1:1827 .
+2022.07.09 20:11:17 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 20:11:17 INFO  Canceling debug proxy for [main]
+2022.07.09 20:11:17 INFO  Closing debug server tcp://0.0.0.0:1824
+2022.07.09 20:11:21 INFO  Deduplicating compilation of util from bsp client 'Metals 0.11.7' (since 53.138s)
+2022.07.09 20:11:21 INFO  Deduplicating compilation of core from bsp client 'Metals 0.11.7' (since 53.155s)
+2022.07.09 20:11:21 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 53.171s)
+2022.07.09 20:11:24 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:11:24 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 56.008s)
+2022.07.09 20:11:26 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:11:26 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:11:26 INFO  Starting debug proxy for [main]
+2022.07.09 20:11:26 INFO  Trying to attach to remote debuggee VM 127.0.0.1:1845 .
+2022.07.09 20:11:26 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 20:11:26 INFO  Canceling debug proxy for [main]
+2022.07.09 20:11:26 INFO  Closing debug server tcp://0.0.0.0:1842
+2022.07.09 20:11:26 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:11:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:11:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:11:29 INFO  Starting debug proxy for [main]
+2022.07.09 20:11:29 INFO  Trying to attach to remote debuggee VM 127.0.0.1:1852 .
+2022.07.09 20:11:29 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 20:11:29 INFO  Canceling debug proxy for [main]
+2022.07.09 20:11:29 INFO  Closing debug server tcp://0.0.0.0:1849
+ÆßÔÂ 09, 2022 8:11:32 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTrace
+2022.07.09 20:12:04 INFO  Deduplicating compilation of util from bsp client 'Metals 0.11.7' (since 1m 35.191s)
+2022.07.09 20:12:04 INFO  Deduplicating compilation of core from bsp client 'Metals 0.11.7' (since 1m 35.209s)
+2022.07.09 20:12:04 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 1m 35.225s)
+2022.07.09 20:12:06 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:12:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:12:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:12:08 INFO  Starting debug proxy for [main]
+2022.07.09 20:12:08 INFO  Trying to attach to remote debuggee VM 127.0.0.1:1872 .
+2022.07.09 20:12:08 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 20:12:14 ERROR [error response][evaluate]: Cannot evaluate because of failed compilation:
+-- [E006] Not Found Error: <expression>:1:0 ------------------------------------
+1 |s
+  |^
+  |Not found: s
+  |
+  | longer explanation available when compiling with `-explain`.
+2022.07.09 20:12:15 INFO  Canceling debug proxy for [main]
+2022.07.09 20:12:14 INFO  Closing debug server tcp://0.0.0.0:1869
+2022.07.09 20:12:25 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 1m 56.515s)
+2022.07.09 20:12:25 INFO  compiling root (1 scala source)
+2022.07.09 20:12:25 INFO  compiling root (1 scala source)
+2022.07.09 20:12:25 INFO  time: compiled root in 0.16s
+2022.07.09 20:12:27 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:12:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 20:12:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 20:12:29 INFO  Starting debug proxy for [main]
+2022.07.09 20:12:30 INFO  Trying to attach to remote debuggee VM 127.0.0.1:1891 .
+2022.07.09 20:12:30 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 20:13:00 INFO  Canceling debug proxy for [main]
+2022.07.09 20:13:00 INFO  Closing debug server tcp://0.0.0.0:1888
+2022.07.09 20:13:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 20:13:35 INFO  Ammonite: Starting BSP server
+2022.07.09 20:13:35 INFO  Ammonite: 
+
+2022.07.09 20:13:36 INFO  Connected to Ammonite Build server v2.5.4
+2022.07.09 20:13:40 INFO  Ammonite: ÆßÔÂ 09, 2022 8:13:40 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint request
+¾¯¸æ: Unsupported request method: buildTarget/javacOptions
+
+2022.07.09 20:13:40 INFO  Java targets not supported by server
+2022.07.09 20:13:43 INFO  time: indexed workspace in 2.63s
+2022.07.09 20:13:43 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:13:43 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:13:43 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 20:14:22 INFO  shutting down Metals
+2022.07.09 20:14:22 INFO  Shut down connection with build server.
+2022.07.09 20:14:22 INFO  Shut down connection with build server.
+2022.07.09 20:14:22 INFO  Shut down connection with build server.
+2022.07.09 20:14:25 WARN  Error importing Ammonite script D:\sbt_repo\SkyFly\src\main\scala\sheet.scscala.meta.internal.metals.MetalsBspException: BSP connection failed in the attempt to get: CompileResult.  Boxed Exception
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.$anonfun$applyOrElse$4(BuildServerConnection.scala:300)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:298)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$1.applyOrElse(BuildServerConnection.scala:286)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.07.09 22:18:55 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at d:\sbt_repo\SkyFly\.metals\lsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\lsp.trace.json
+2022.07.09 22:18:56 INFO  logging to file D:\sbt_repo\SkyFly\.metals\metals.log
+2022.07.09 22:18:56 INFO  Started: Metals version 0.11.7 in workspace 'D:\sbt_repo\SkyFly' for client Visual Studio Code 1.69.0.
+2022.07.09 22:18:57 INFO  time: initialize in 1.39s
+2022.07.09 22:19:00 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.07.09 22:19:01 INFO  Attempting to connect to the build server...
+2022.07.09 22:19:01 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 22:19:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 22:19:01 INFO  Attempting to connect to the build server...
+2022.07.09 22:19:01 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 22:19:01 INFO  Attempting to connect to the build server...
+2022.07.09 22:19:01 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 22:19:02 INFO  skipping build import with status 'Installed'
+2022.07.09 22:19:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\project\project\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 22:19:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\project\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 22:19:02 INFO  time: Connected to build server in 0.92s
+2022.07.09 22:19:02 INFO  Connected to Build server: Bloop v1.5.2
+2022.07.09 22:19:03 INFO  time: Imported build in 0.35s
+2022.07.09 22:19:05 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+ÆßÔÂ 09, 2022 10:19:05 ÏÂÎç org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+¾¯¸æ: Unmatched cancel notification for request id 2
+2022.07.09 22:19:08 INFO  time: indexed workspace in 5.76s
+2022.07.09 22:19:09 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:19:09 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:19:09 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:19:12 INFO  Ammonite: Starting BSP server
+2022.07.09 22:19:12 INFO  Ammonite: 
+
+2022.07.09 22:19:19 INFO  Connected to Ammonite Build server v2.5.4
+2022.07.09 22:19:28 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:19:30 INFO  Ammonite: ÆßÔÂ 09, 2022 10:19:29 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint request
+¾¯¸æ: Unsupported request method: buildTarget/javacOptions
+
+2022.07.09 22:19:30 INFO  Java targets not supported by server
+2022.07.09 22:19:34 INFO  time: indexed workspace in 4.51s
+2022.07.09 22:19:35 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:19:35 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:19:35 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:19:36 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:19:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 22:19:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 22:19:39 INFO  Starting debug proxy for [main]
+2022.07.09 22:19:50 INFO  Trying to attach to remote debuggee VM 127.0.0.1:8085 .
+2022.07.09 22:19:50 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 22:20:08 INFO  compiling src/main/scala/sheet.sc
+2022.07.09 22:20:11 ERROR [error response][evaluate]: Cannot evaluate because of failed compilation:
+-- [E119] Type Error: <expression>:1:17 ----------------------------------------
+1 |org.apache.log4j.Logger
+  |^^^^^^^^^^^^^^^^^^^^^^^
+  |Java defined class Logger is not a value.
+2022.07.09 22:20:11 ERROR [error response][next]: Failed to step because the thread 'main' is not suspended in the target VM.
+2022.07.09 22:20:11 INFO  Canceling debug proxy for [main]
+2022.07.09 22:20:11 INFO  Closing debug server tcp://0.0.0.0:8075
+2022.07.09 22:20:11 INFO  time: compiled sheet.sc in 3.18s
+ÆßÔÂ 09, 2022 10:22:07 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTrace
+2022.07.09 22:28:52 INFO  Disconnecting from Bloop session...
+2022.07.09 22:28:52 INFO  Shut down connection with build server.
+2022.07.09 22:28:52 INFO  Shut down connection with build server.
+2022.07.09 22:28:52 INFO  Shut down connection with build server.
+2022.07.09 22:28:52 INFO  Attempting to connect to the build server...
+2022.07.09 22:28:52 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 22:28:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 22:28:53 INFO  Attempting to connect to the build server...
+2022.07.09 22:28:53 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 22:28:53 INFO  Attempting to connect to the build server...
+2022.07.09 22:28:53 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 22:28:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\project\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 22:28:53 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\project\project\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 22:28:53 INFO  time: Connected to build server in 1.55s
+2022.07.09 22:28:53 INFO  Connected to Build server: Bloop v1.5.2
+2022.07.09 22:28:53 INFO  time: Imported build in 0.39s
+2022.07.09 22:28:57 INFO  time: indexed workspace in 3.35s
+2022.07.09 22:28:59 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:28:59 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:28:59 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:29:01 INFO  Refreshed build after change
+2022.07.09 22:35:56 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 22:35:56 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 22:35:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 22:35:56 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 22:36:00 INFO  Connected to Build server: Bloop v1.5.2
+2022.07.09 22:36:00 INFO  Connected to Build server: Bloop v1.5.2
+2022.07.09 22:36:00 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 22:36:00 INFO  Bloop uses E:\Program Files\Java\jdk1.8.0_281 defined at C:\Users\29066\.bloop\bloop.json
+2022.07.09 22:36:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\project\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 22:36:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\project\.metals\bsp.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2022.07.09 22:40:30 INFO  Deduplicating compilation of util from bsp client 'Metals 0.11.7' (since 4m 31.928s)
+2022.07.09 22:40:30 INFO  Deduplicating compilation of core from bsp client 'Metals 0.11.7' (since 4m 32.476s)
+2022.07.09 22:40:30 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 4m 32.682s)
+2022.07.09 22:41:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 22:41:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 22:41:34 INFO  Starting debug proxy for [main]
+2022.07.09 22:41:34 INFO  Deduplicating compilation of util from bsp client 'Metals 0.11.7' (since 5m 36.548s)
+2022.07.09 22:41:34 INFO  Deduplicating compilation of core from bsp client 'Metals 0.11.7' (since 5m 36.659s)
+2022.07.09 22:41:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 5m 36.682s)
+2022.07.09 22:41:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 5m 36.686s)
+2022.07.09 22:41:34 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:41:36 INFO  Trying to attach to remote debuggee VM 127.0.0.1:11140 .
+2022.07.09 22:41:36 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 22:41:36 INFO  Deduplicating compilation of util from bsp client 'Metals 0.11.7' (since 5m 38.787s)
+2022.07.09 22:41:36 INFO  Deduplicating compilation of util from bsp client 'Metals 0.11.7' (since 5m 39.005s)
+2022.07.09 22:41:37 INFO  Deduplicating compilation of core from bsp client 'Metals 0.11.7' (since 5m 39.405s)
+2022.07.09 22:41:37 INFO  Deduplicating compilation of core from bsp client 'Metals 0.11.7' (since 5m 39.405s)
+2022.07.09 22:41:37 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 5m 39.422s)
+2022.07.09 22:41:37 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.7' (since 5m 39.426s)
+2022.07.09 22:41:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 22:41:39 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 22:41:39 ERROR java.nio.file.FileSystemAlreadyExistsException
+2022.07.09 22:41:39 INFO  Closing debug server tcp://0.0.0.0:11149
+2022.07.09 22:41:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 22:41:39 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 22:41:39 INFO  Starting debug proxy for [main]
+2022.07.09 22:41:39 INFO  Starting debug proxy for [main]
+2022.07.09 22:41:39 INFO  Trying to attach to remote debuggee VM 127.0.0.1:11154 .
+2022.07.09 22:41:39 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 22:41:39 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:41:39 WARN  Old frameworks are not supported: com.novocode.junit.JUnitFramework
+2022.07.09 22:41:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-server.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2022.07.09 22:41:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\sbt_repo\SkyFly\.metals\dap-client.trace.json or C:\Users\29066\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2022.07.09 22:41:41 INFO  Starting debug proxy for [main]
+2022.07.09 22:41:42 INFO  Trying to attach to remote debuggee VM 127.0.0.1:11159 .
+2022.07.09 22:41:42 INFO  Attaching to debuggee VM succeeded.
+2022.07.09 22:41:47 INFO  Canceling debug proxy for [main]
+2022.07.09 22:41:47 ERROR Read data from io exception: java.net.SocketException: Socket closed
+2022.07.09 22:41:47 INFO  Closing debug server tcp://0.0.0.0:11132
+2022.07.09 22:41:51 INFO  Canceling debug proxy for [main]
+2022.07.09 22:41:51 ERROR Read data from io exception: java.net.SocketException: Socket closed
+2022.07.09 22:41:51 INFO  Closing debug server tcp://0.0.0.0:11147
+2022.07.09 22:41:53 INFO  Canceling debug proxy for [main]
+2022.07.09 22:41:53 INFO  Closing debug server tcp://0.0.0.0:11156
+2022.07.09 22:41:58 INFO  Canceling debug proxy for [main]
+2022.07.09 22:42:00 INFO  shutting down Metals
+2022.07.09 22:42:00 ERROR build shutdown: bloopjava.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: ä½ çš„ä¸»æœºä¸­çš„è½¯ä»¶ä¸­æ­¢äº†ä¸€ä¸ªå·²å»ºç«‹çš„è¿žæŽ¥ã??
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: ä½ çš„ä¸»æœºä¸­çš„è½¯ä»¶ä¸­æ­¢äº†ä¸€ä¸ªå·²å»ºç«‹çš„è¿žæŽ¥ã??
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy7.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: ä½ çš„ä¸»æœºä¸­çš„è½¯ä»¶ä¸­æ­¢äº†ä¸€ä¸ªå·²å»ºç«‹çš„è¿žæŽ¥ã??
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy7.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.07.09 22:42:00 ERROR build shutdown: bloopjava.util.concurrent.ExecutionException: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: ä½ çš„ä¸»æœºä¸­çš„è½¯ä»¶ä¸­æ­¢äº†ä¸€ä¸ªå·²å»ºç«‹çš„è¿žæŽ¥ã??
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:357)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:1928)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.io.IOException: ä½ çš„ä¸»æœºä¸­çš„è½¯ä»¶ä¸­æ­¢äº†ä¸€ä¸ªå·²å»ºç«‹çš„è¿žæŽ¥ã??
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy7.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: ä½ çš„ä¸»æœºä¸­çš„è½¯ä»¶ä¸­æ­¢äº†ä¸€ä¸ªå·²å»ºç«‹çš„è¿žæŽ¥ã??
+	at sun.nio.ch.SocketDispatcher.write0(Native Method)
+	at sun.nio.ch.SocketDispatcher.write(SocketDispatcher.java:51)
+	at sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:93)
+	at sun.nio.ch.IOUtil.write(IOUtil.java:65)
+	at sun.nio.ch.SocketChannelImpl.write(SocketChannelImpl.java:469)
+	at sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:114)
+	at java.nio.channels.Channels.writeFullyImpl(Channels.java:78)
+	at java.nio.channels.Channels.writeFully(Channels.java:98)
+	at java.nio.channels.Channels.access$000(Channels.java:61)
+	at java.nio.channels.Channels$1.write(Channels.java:174)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at java.nio.channels.Channels$1.write(Channels.java:155)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:125)
+	at java.io.FilterOutputStream.write(FilterOutputStream.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.request(RemoteEndpoint.java:161)
+	at org.eclipse.lsp4j.jsonrpc.services.EndpointProxy.invoke(EndpointProxy.java:91)
+	at com.sun.proxy.$Proxy7.buildShutdown(null)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:106)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:103)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2022.07.09 22:42:00 INFO  Shut down connection with build server.
