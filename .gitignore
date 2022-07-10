@@ -2,3 +2,5 @@ target/
 core/target/
 util/target/
 log4j/
+*.class
+*.tasty
