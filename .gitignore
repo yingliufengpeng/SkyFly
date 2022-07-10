@@ -4,3 +4,9 @@ util/target/
 log4j/
 *.class
 *.tasty
+
+.bloop
+.ammonite
+.bsp
+.metals
+.vscode
