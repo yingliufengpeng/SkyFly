@@ -1,6 +1,7 @@
-package com.skyfly.cats_demo
-import org.scalatest.funsuite.AnyFunSuite
+package com.skyfly.cats_demo.monads
+
 import cats.Eval
+import org.scalatest.funsuite.AnyFunSuite
 
 class CatsSuite_Monads_Eval extends AnyFunSuite  {
 

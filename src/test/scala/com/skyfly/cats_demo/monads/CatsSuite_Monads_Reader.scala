@@ -1,8 +1,7 @@
-package com.skyfly.cats_demo
+package com.skyfly.cats_demo.monads
 
-import cats.data.Reader
+import cats.data.{Reader, ReaderT}
 import cats.instances.vector.*
-import cats.syntax.applicative.*
 import cats.syntax.applicative.*
 //
 //import scala.concurrent.*
@@ -20,10 +19,13 @@ class CatsSuite_Monads_Reader extends AnyFunSuite  {
   case class Db(usernames: Map[Int, String], passwords: Map[String, String])
 
   type DbReader[T] = Reader[Db, T]
+
+
   test("Hacking On Readers") {
 
     def findUserName(userId: Int): DbReader[Option[String]] =
       Reader(db => db.usernames.get(userId))
+
     def checkPassword(username: String, password: String): DbReader[Boolean] =
       Reader(db => db.passwords.get(username).contains(password))
 

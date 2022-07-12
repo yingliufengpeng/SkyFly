@@ -1,28 +1,29 @@
-package com.skyfly.cats_demo
-import cats.{Monad, Monoid}
-import cats.instances.option.*
-import cats.instances.list.*
+package com.skyfly.cats_demo.monads
+
+import cats.instances.either.*
 import cats.instances.future.*
+import cats.instances.list.*
+import cats.instances.option.*
+import cats.instances.try_.*
+import cats.syntax.applicative.*
+import cats.syntax.applicativeError.*
+import cats.syntax.either.*
 import cats.syntax.flatMap.*
 import cats.syntax.functor.*
-import cats.syntax.applicative.*
-import cats.syntax.either.*
 import cats.syntax.monadError.*
-import cats.syntax.applicativeError.*
-import scala.util.Try
-import cats.instances.try_.*
-import cats.MonadError
-import cats.instances.either._ // for MonadError
+import cats.{Monad, MonadError, Monoid}
 import org.apache.log4j.Logger
+
+import scala.util.Try
 //import cats.syntax.id.*
 import cats.Id
 
 //val logger = Logger.getLogger(getClass.getName)
 
-import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.duration.*
 import org.scalatest.funsuite.AnyFunSuite
 
+import scala.concurrent.ExecutionContext.Implicits.global
+import scala.concurrent.duration.*
 import scala.concurrent.{Await, Future}
 
 def parseInt(str: String): Option[Int] =
@@ -68,8 +69,9 @@ class CatsSuite_Monads extends AnyFunSuite {
       case PasswordIncorrect(username: String)
       case UnexpectedError
     case class User(username: String, password: String)
-    import LoginError.*
     type LoginResult = Either[LoginError, User]
+
+    import LoginError.*
 
     def handleError(error: LoginError): Unit =
       error match

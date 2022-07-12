@@ -1,19 +1,17 @@
-package com.skyfly.cats_demo
+package com.skyfly.cats_demo.monads
 
-import cats.data.Reader
 import cats.Monad
+import cats.data.State.*
+import cats.data.{Reader, State}
 import cats.instances.vector.*
 import cats.syntax.applicative.*
-import cats.syntax.functor.* // for map
+import cats.syntax.flatMap.*
+import cats.syntax.functor.*
 import cats.syntax.monad.*
-import cats.syntax.flatMap.*  // for flatMap
-
-import scala.annotation.tailrec
-
 
 import org.scalatest.funsuite.AnyFunSuite
-import cats.data.State
-import State._
+
+import scala.annotation.tailrec
 
 enum Tree[+A]:
   case Branch(left: Tree[A], right: Tree[A])
@@ -62,7 +60,7 @@ given Monad[Tree] =
 
 
 
-import Tree._
+import com.skyfly.cats_demo.monads.Tree.*
 def branch[A](left: Tree[A], right: Tree[A]): Tree[A] =
   Branch(left, right)
 

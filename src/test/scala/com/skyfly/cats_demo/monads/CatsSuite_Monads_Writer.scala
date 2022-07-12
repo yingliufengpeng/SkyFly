@@ -1,15 +1,13 @@
-package com.skyfly.cats_demo
+package com.skyfly.cats_demo.monads
 
 import cats.data.Writer
-import cats.instances.vector.* // for Monoid
+import cats.instances.vector.*
 import cats.syntax.applicative.*
-import cats.syntax.writer.* // for tell
-import cats.syntax.writer.* // for writer
+import cats.syntax.writer.*
 
-
-import scala.concurrent._
+import scala.concurrent.*
 import scala.concurrent.ExecutionContext.Implicits.global
-import scala.concurrent.duration._
+import scala.concurrent.duration.*
 
 
 type Logged[A] = Writer[Vector[String], A]
