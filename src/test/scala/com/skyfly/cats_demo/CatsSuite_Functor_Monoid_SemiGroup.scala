@@ -3,10 +3,10 @@ package com.skyfly.cats_demo
 import org.scalatest.funsuite.AnyFunSuite
 
 import cats.Monoid
-import cats.syntax.semigroup._
+import cats.syntax.semigroup.*
 
 
-class CatsSuite extends AnyFunSuite {
+class CatsSuite_Functor_Monoid_SemiGroup extends AnyFunSuite {
 
   /**
    * The parial unification in the Scala compiler works by fixing type parameters
