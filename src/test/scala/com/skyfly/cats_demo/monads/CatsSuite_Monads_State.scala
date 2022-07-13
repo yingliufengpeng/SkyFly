@@ -38,7 +38,6 @@ given Monad[Tree] =
 
 
     override def tailRecM[A, B](a: A)(f: A => Tree[Either[A, B]]): Tree[B] =
-
       @tailrec
       def loop(open: List[Tree[Either[A, B]]], closed: List[Option[Tree[B]]]): List[Tree[B]] =
         open match
