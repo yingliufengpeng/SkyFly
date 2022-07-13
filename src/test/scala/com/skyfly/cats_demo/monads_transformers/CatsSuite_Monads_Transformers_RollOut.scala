@@ -43,7 +43,7 @@ class CatsSuite_Monads_Transformers_RollOut extends AnyFunSuite  {
     Await.result(stack, 1.second) match
       case Left(msg) => s"Commands error $msg"
       case Right(true) => s"$ally1 and $ally2 are ready to roll out!"
-      case Right(fale) => s"$ally1 and $ally2 need a recharge."
+      case Right(_) => s"$ally1 and $ally2 need a recharge."
 
 
   test("roll out") {
